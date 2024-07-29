@@ -1,0 +1,90 @@
+*{
+    margin:0;
+   /* padding:0;*/
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background:black;
+    background-position: center;
+    background-size: cover;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.nav-bar .title{
+    color:white;
+    font-size:60px;
+    font-weight: 600;
+    cursor:pointer;
+
+}
+span{
+    color:crimson;
+}
+.menu li{
+    list-style: none;
+    display: inline;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: .4s ease;
+}
+.menu li a:hover{
+    color: crimson;
+    padding:5px 10px;
+    border: 2px solid white;
+}
+.prod{
+    display:flex;
+    flex-wrap:wrap;
+    width:90%;
+    height:100%;
+    
+}
+.prodim{
+    display:flexbox;
+    width:350px;
+    height:495px;
+    border:1px solid black;
+    margin-left:20px;
+    margin-top:20px;
+    background-color:white;
+    border-radius:6px;
+    margin-bottom:45px;
+    box-shadow:1px 1px 5px black;
+}
+.prodimg{
+    width:85%;
+    height:70%;
+    display:flex;
+    margin:auto;
+    margin-top:5px;
+}
+#imgs{
+    width:100%;
+    height:100%;
+    border-radius:6px;
+    
+}
+.coffeebuy{
+    display:flexbox;
+    text-align: center;
+    padding:2px;
+}
+.btn{
+    
+    padding:2px;
+    color:red;
+    background-color: black;
+    line-height: 1;
+}
